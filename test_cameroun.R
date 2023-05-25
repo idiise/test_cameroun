@@ -6,5 +6,5 @@ mtcars <- mtcars |> rownames_to_column()
 simple <- head(mtcars)
 
 simple |> e_chart(x = rowname) |> 
-  e_line(mpg) |> 
+  e_line(disp) |> 
   e_labels()
